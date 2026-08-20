@@ -4,7 +4,7 @@ A hardware verified peripheral layer for RISC-V microcontrollers.
 
 Apache 2.0. Written and tested on real silicon by [Armstrong Subero](https://rvembedded.com).
 
-> **Beta.** This is an early release, published ahead of Rovari Studio so the code is available to people working with these chips today. The API is stable enough to build on but may change before 1.0. Coverage is uneven across targets, and the table below says exactly where.
+> **Beta.** This is an early release, published ahead of Rovari Studio so the code is available to people working with these chips today. The API is stable enough to build on but may change before 1.0. Coverage is uneven across targets.
 
 ## What this is
 
