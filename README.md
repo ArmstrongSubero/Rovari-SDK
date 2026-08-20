@@ -10,7 +10,7 @@ Apache 2.0. Written and tested on real silicon by [Armstrong Subero](https://rve
 
 WCH ships an EVT (a vendor HAL) for every chip. It works, and the heavy stacks in it are the only implementations that exist for USB, Ethernet, and the other complex peripherals. It is also inconsistent between peripherals, thinly documented in English, and unpleasant to read.
 
-The Rovari SDK is a clean layer **on top of** the EVT, not a replacement for it. You get a coherent API across chips, and the vendor stacks stay reachable underneath whenever you need them. The idea is not to support every chip, but the idea behind the project is that the ones it does support should be easy to use. Currently the targets are WCH RISC-V chips and Baochip-1x RSIC-V targets. 
+The Rovari SDK is a clean layer **on top of** the EVT, not a replacement for it. You get a coherent API across chips, and the vendor stacks stay reachable underneath whenever you need them. The idea is not to support every chip, but the idea behind the project is that the ones it does support should be easy to use. It's intended for people new to the RISC-V ecosystem who are accustomed to something like an Arduino or Raspberry Pi Pico but want a bit more power to explore while having a comfortable layer to fall back on. Currently the targets are WCH RISC-V chips and Baochip-1x RSIC-V targets. 
 
 Rovari is really simple to use and provides an abstract layer that's easy to peel back if you need to. 
 
