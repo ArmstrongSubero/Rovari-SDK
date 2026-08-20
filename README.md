@@ -60,7 +60,7 @@ The Baochip target is included because the SDK was built for [bunnie Huang's](ht
 
 Sources carry requirement tags (`@req REQ-ROVARI-CORE-0010`) and assertions through a runtime called SEVS, the Subero Embedded Verification Standard, which synthesises practice from JPL, NASA, and DO-178B etc. Each target reserves the top 256 bytes of SRAM for a crash record. 
 
-SEVS is live on V003, V307, and Baochip1x. It is not yet wired on V203 or H417. Those two build and run normally; they simply do not carry the assertion runtime yet and th full standards have not been implemented in the beta relsease. 
+SEVS is live on V003, V307, and Baochip1x. It is not yet wired on V203 or H417. Those two build and run normally; they simply do not carry the assertion runtime yet and the full standards have not been implemented in the beta release for any target. 
 
 ## Using it now
 
