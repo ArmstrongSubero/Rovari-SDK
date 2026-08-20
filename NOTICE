@@ -1,0 +1,57 @@
+Rovari SDK
+Copyright 2025 Armstrong Subero / Rovari Embedded Systems
+https://rvembedded.com
+
+This product includes software developed by Armstrong Subero.
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+
+THIRD PARTY COMPONENTS
+======================
+
+Each target tree vendors upstream code under targets/<CHIP>/vendor/ and
+targets/<CHIP>/thirdparty/. Those components retain their own licences,
+which are reproduced in their respective directories. Summary:
+
+WCH EVT (Enhanced Vendor Toolkit)
+  Nanjing Qinheng Microelectronics Co., Ltd.
+  Apache License 2.0
+  Included unmodified under targets/<CHIP>/vendor/
+
+FatFs
+  Copyright (C) ChaN
+  BSD style single clause licence
+
+Petit FatFs
+  Copyright (C) ChaN
+  BSD style single clause licence
+
+FreeRTOS
+  Copyright (C) Amazon.com, Inc. or its affiliates
+  MIT License
+
+LVGL
+  Copyright (c) LVGL Kft and contributors
+  MIT License
+
+lwIP
+  Copyright (c) Swedish Institute of Computer Science
+  BSD 3 Clause License
+
+Helix MP3 decoder
+  RealNetworks, Inc.
+  RealNetworks Public Source License / RCSL
+
+TJpgDec
+  Copyright (C) ChaN
+  BSD style single clause licence
+
+
+TRADEMARKS
+==========
+
+RISC-V is a registered trademark of RISC-V International.
+CH32 and WCH are trademarks of Nanjing Qinheng Microelectronics Co., Ltd.
+This project is independent and is neither affiliated with nor endorsed
+by either organisation.
