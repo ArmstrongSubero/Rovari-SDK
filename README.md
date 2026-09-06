@@ -68,7 +68,11 @@ There is no standalone build system in this release. That is the main thing beta
 
 **Lift what you need.** The drivers are self contained C. Copy `rovari_spi.c`, `rovari_i2c.c`, or whichever module you want into your own project alongside the WCH EVT and build it however you already build. This is the fastest path if you have a working toolchain and just want tested peripheral code.
 
-**Wait for Rovari Studio.** The IDE bundles this SDK with a toolchain, one click build and flash, and a source level debugger. It handles the source lists, linker scripts, and startup files for you. Coming shortly after this release.
+**Wait for Rovari Studio.** The IDE bundles this SDK with a toolchain, one click build and flash, and a source level debugger. It handles the source lists, linker scripts, and startup files for you.
+
+You can get the release of Rovari Studio here: 
+
+https://github.com/ArmstrongSubero/rovari-studio
 
 A CMake path and PlatformIO board definitions are planned so the SDK is consumable without the IDE. If either of those matters to you, open an issue and say so; it moves them up.
 
